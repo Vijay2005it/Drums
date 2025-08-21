@@ -3,29 +3,38 @@
     padding: 0px;
     margin: 0px;
     font-family: monospace;
+    background-color: #ACC8E5;
+    color: #112;
+}
+h1
+{
+    margin-left: 80vh;
+    font-size: 40px;
+    color: #27329b;
 }
 img
 {
     height: 150px;
     width: 150px;
-    
+    border-radius: 10px;
+    margin: 30px;
 }
 .main
 {
-    border: 2px solid;
-    height: 600px;
-    width: 400px;
-    padding: 10px;
-    margin-left: 600px;
-    margin-top: 100px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 200px;
+   margin-top: 250px;
 }
 button
 {
-    margin-top: 30px;
     cursor: pointer;
-    border-style:outset;
     border-radius: 10px;
+    border-style: none;
+    padding:5px;
+}
+button:hover
+{
+    background-color: #717ef6;
 }
